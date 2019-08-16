@@ -1,3 +1,4 @@
+#my new version
 #read the input data
 stat1_interactions_new <- read.csv("stat1_interactions.tsv",sep="\t")
 
@@ -15,4 +16,4 @@ png('statsmallnew.png')
 plot(statsmallnew$combined_score)
 dev.off()
 
-message("Script ran successfully, all outputs are in the working director")
+message("Script ran successfully, all outputs are in the working directory")
